@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="人生得意须尽欢，莫使金樽空对月">
+    <title>须尽欢</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="loader" class="loader">
+        <div class="loader-bg">
+            <div class="gold-particles"></div>
+            <div class="gold-particles particles-2"></div>
+        </div>
+        <div class="loader-content">
+            <div class="loader-icon">
+                <svg viewBox="0 0 100 100" class="gold-coin">
+                    <defs>
+                        <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#ffd700"/>
+                            <stop offset="50%" style="stop-color:#ffec8b"/>
+                            <stop offset="100%" style="stop-color:#daa520"/>
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="45" fill="url(#goldGrad)"/>
+                    <text x="50" y="58" text-anchor="middle" fill="#8b4513" font-size="24" font-weight="bold" font-family="serif">财</text>
+                </svg>
+            </div>
+            <div class="loader-text">
+                <span class="loader-title">须尽欢</span>
+            </div>
+            <div class="loader-slogan">
+                <span class="slogan-text">招财进宝</span>
+                <span class="slogan-text">及时行乐</span>
+            </div>
+            <div class="loader-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <div class="progress-info">
+                    <span class="countdown" id="countdown">5</span>
+                    <span class="countdown-unit">秒</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainContent" class="main-content hidden">
+        <div class="liquid-bg">
+            <div class="liquid-blob blob-1"></div>
+            <div class="liquid-blob blob-2"></div>
+            <div class="liquid-blob blob-3"></div>
+            <div class="liquid-blob blob-4"></div>
+        </div>
+
+        <main class="container">
+            <header class="header">
+                <div class="avatar-container">
+                    <div class="avatar-ring"></div>
+                    <div class="avatar-wrapper">
+                        <img src="images/avatar/avatar.jpg" alt="头像" class="avatar">
+                    </div>
+                </div>
+                
+                <h1 class="brand-name">须尽欢</h1>
+                <p class="slogan">人生得意须尽欢，莫使金樽空对月</p>
+            </header>
+
+            <section class="marquee-section">
+                <div class="marquee-container">
+                    <div class="marquee-track">
+                        <div class="marquee-item">
+                            <img src="images/gallery/style1.jpg" alt="风格1">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="images/gallery/style2.jpg" alt="风格2">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="images/gallery/style3.jpg" alt="风格3">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="images/gallery/style1.jpg" alt="风格1">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="images/gallery/style2.jpg" alt="风格2">
+                        </div>
+                        <div class="marquee-item">
+                            <img src="images/gallery/style3.jpg" alt="风格3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="glass-card contact-card">
+                <div class="contact-item" data-copy="qqyy5717">
+                    <div class="contact-icon wechat">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.89c-.135-.01-.269-.03-.406-.03zm-2.53 3.274c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">微信号</span>
+                        <span class="contact-value">qqyy5717</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyToClipboard('qqyy5717', this)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>复制</span>
+                    </button>
+                </div>
+                <div class="contact-item" data-copy="212079663">
+                    <div class="contact-icon qq">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12.003 2c-2.265 0-6.29 1.364-6.29 7.325v1.195S3.55 14.96 3.55 17.474c0 .665.17 1.025.281 1.025.114 0 .902-.484 1.748-2.072 0 0-.18 2.197 1.904 3.967 0 0-1.77.495-1.77 1.182 0 .686 4.078.43 6.29.43 2.213 0 6.29.256 6.29-.43 0-.687-1.77-1.182-1.77-1.182 2.085-1.77 1.905-3.967 1.905-3.967.846 1.588 1.634 2.072 1.746 2.072.111 0 .283-.36.283-1.025 0-2.514-2.166-6.954-2.166-6.954V9.325C18.29 3.364 14.268 2 12.003 2z"/>
+                        </svg>
+                    </div>
+                    <div class="contact-info">
+                        <span class="contact-label">QQ号</span>
+                        <span class="contact-value">212079663</span>
+                    </div>
+                    <button class="copy-btn" onclick="copyToClipboard('212079663', this)">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span>复制</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="glass-card qrcodes-card">
+                <div class="qrcode-grid">
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/wechat.png" alt="微信">
+                        </div>
+                        <span class="platform-name">微信</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/wework.jpg" alt="企业微信">
+                        </div>
+                        <span class="platform-name">企业微信</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/qq.png" alt="QQ">
+                        </div>
+                        <span class="platform-name">QQ</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/telegram.jpg" alt="Telegram">
+                        </div>
+                        <span class="platform-name">Telegram</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/telegram-group.jpg" alt="TG群">
+                        </div>
+                        <span class="platform-name">TG群</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/telegram-channel.jpg" alt="TG频道">
+                        </div>
+                        <span class="platform-name">TG频道</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/dingtalk.png" alt="钉钉">
+                        </div>
+                        <span class="platform-name">钉钉</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/feishu.jpg" alt="飞书">
+                        </div>
+                        <span class="platform-name">飞书</span>
+                    </div>
+                    <div class="qrcode-item">
+                        <div class="qrcode-wrapper">
+                            <img src="images/qrcode/youni.jpg" alt="与你">
+                        </div>
+                        <span class="platform-name">与你</span>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p class="footer-slogan">春不等人，财不等人，乐不宜迟</p>
+            </footer>
+        </main>
+    </div>
+
+    <div id="toast" class="toast">已复制到剪贴板</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
